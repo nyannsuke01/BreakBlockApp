@@ -1,0 +1,595 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CE9EFF4A242A37EA00A73BE1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE9EFF49242A37EA00A73BE1 /* AppDelegate.swift */; };
+		CE9EFF4C242A37EA00A73BE1 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE9EFF4B242A37EA00A73BE1 /* SceneDelegate.swift */; };
+		CE9EFF4E242A37EA00A73BE1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE9EFF4D242A37EA00A73BE1 /* ViewController.swift */; };
+		CE9EFF51242A37EB00A73BE1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE9EFF4F242A37EA00A73BE1 /* Main.storyboard */; };
+		CE9EFF53242A37EC00A73BE1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE9EFF52242A37EC00A73BE1 /* Assets.xcassets */; };
+		CE9EFF56242A37EC00A73BE1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE9EFF54242A37EC00A73BE1 /* LaunchScreen.storyboard */; };
+		CE9EFF61242A37EC00A73BE1 /* BleakBlocksAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE9EFF60242A37EC00A73BE1 /* BleakBlocksAppTests.swift */; };
+		CE9EFF6C242A37EC00A73BE1 /* BleakBlocksAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE9EFF6B242A37EC00A73BE1 /* BleakBlocksAppUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CE9EFF5D242A37EC00A73BE1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CE9EFF3E242A37EA00A73BE1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CE9EFF45242A37EA00A73BE1;
+			remoteInfo = BleakBlocksApp;
+		};
+		CE9EFF68242A37EC00A73BE1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CE9EFF3E242A37EA00A73BE1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CE9EFF45242A37EA00A73BE1;
+			remoteInfo = BleakBlocksApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CE9EFF46242A37EA00A73BE1 /* BleakBlocksApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BleakBlocksApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CE9EFF49242A37EA00A73BE1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CE9EFF4B242A37EA00A73BE1 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		CE9EFF4D242A37EA00A73BE1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		CE9EFF50242A37EA00A73BE1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CE9EFF52242A37EC00A73BE1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CE9EFF55242A37EC00A73BE1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CE9EFF57242A37EC00A73BE1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CE9EFF5C242A37EC00A73BE1 /* BleakBlocksAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BleakBlocksAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CE9EFF60242A37EC00A73BE1 /* BleakBlocksAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BleakBlocksAppTests.swift; sourceTree = "<group>"; };
+		CE9EFF62242A37EC00A73BE1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CE9EFF67242A37EC00A73BE1 /* BleakBlocksAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BleakBlocksAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CE9EFF6B242A37EC00A73BE1 /* BleakBlocksAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BleakBlocksAppUITests.swift; sourceTree = "<group>"; };
+		CE9EFF6D242A37EC00A73BE1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CE9EFF43242A37EA00A73BE1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE9EFF59242A37EC00A73BE1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE9EFF64242A37EC00A73BE1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CE9EFF3D242A37EA00A73BE1 = {
+			isa = PBXGroup;
+			children = (
+				CE9EFF48242A37EA00A73BE1 /* BleakBlocksApp */,
+				CE9EFF5F242A37EC00A73BE1 /* BleakBlocksAppTests */,
+				CE9EFF6A242A37EC00A73BE1 /* BleakBlocksAppUITests */,
+				CE9EFF47242A37EA00A73BE1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CE9EFF47242A37EA00A73BE1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CE9EFF46242A37EA00A73BE1 /* BleakBlocksApp.app */,
+				CE9EFF5C242A37EC00A73BE1 /* BleakBlocksAppTests.xctest */,
+				CE9EFF67242A37EC00A73BE1 /* BleakBlocksAppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CE9EFF48242A37EA00A73BE1 /* BleakBlocksApp */ = {
+			isa = PBXGroup;
+			children = (
+				CE9EFF49242A37EA00A73BE1 /* AppDelegate.swift */,
+				CE9EFF4B242A37EA00A73BE1 /* SceneDelegate.swift */,
+				CE9EFF4D242A37EA00A73BE1 /* ViewController.swift */,
+				CE9EFF4F242A37EA00A73BE1 /* Main.storyboard */,
+				CE9EFF52242A37EC00A73BE1 /* Assets.xcassets */,
+				CE9EFF54242A37EC00A73BE1 /* LaunchScreen.storyboard */,
+				CE9EFF57242A37EC00A73BE1 /* Info.plist */,
+			);
+			path = BleakBlocksApp;
+			sourceTree = "<group>";
+		};
+		CE9EFF5F242A37EC00A73BE1 /* BleakBlocksAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				CE9EFF60242A37EC00A73BE1 /* BleakBlocksAppTests.swift */,
+				CE9EFF62242A37EC00A73BE1 /* Info.plist */,
+			);
+			path = BleakBlocksAppTests;
+			sourceTree = "<group>";
+		};
+		CE9EFF6A242A37EC00A73BE1 /* BleakBlocksAppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				CE9EFF6B242A37EC00A73BE1 /* BleakBlocksAppUITests.swift */,
+				CE9EFF6D242A37EC00A73BE1 /* Info.plist */,
+			);
+			path = BleakBlocksAppUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CE9EFF45242A37EA00A73BE1 /* BleakBlocksApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CE9EFF70242A37EC00A73BE1 /* Build configuration list for PBXNativeTarget "BleakBlocksApp" */;
+			buildPhases = (
+				CE9EFF42242A37EA00A73BE1 /* Sources */,
+				CE9EFF43242A37EA00A73BE1 /* Frameworks */,
+				CE9EFF44242A37EA00A73BE1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BleakBlocksApp;
+			productName = BleakBlocksApp;
+			productReference = CE9EFF46242A37EA00A73BE1 /* BleakBlocksApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CE9EFF5B242A37EC00A73BE1 /* BleakBlocksAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CE9EFF73242A37EC00A73BE1 /* Build configuration list for PBXNativeTarget "BleakBlocksAppTests" */;
+			buildPhases = (
+				CE9EFF58242A37EC00A73BE1 /* Sources */,
+				CE9EFF59242A37EC00A73BE1 /* Frameworks */,
+				CE9EFF5A242A37EC00A73BE1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CE9EFF5E242A37EC00A73BE1 /* PBXTargetDependency */,
+			);
+			name = BleakBlocksAppTests;
+			productName = BleakBlocksAppTests;
+			productReference = CE9EFF5C242A37EC00A73BE1 /* BleakBlocksAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CE9EFF66242A37EC00A73BE1 /* BleakBlocksAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CE9EFF76242A37EC00A73BE1 /* Build configuration list for PBXNativeTarget "BleakBlocksAppUITests" */;
+			buildPhases = (
+				CE9EFF63242A37EC00A73BE1 /* Sources */,
+				CE9EFF64242A37EC00A73BE1 /* Frameworks */,
+				CE9EFF65242A37EC00A73BE1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CE9EFF69242A37EC00A73BE1 /* PBXTargetDependency */,
+			);
+			name = BleakBlocksAppUITests;
+			productName = BleakBlocksAppUITests;
+			productReference = CE9EFF67242A37EC00A73BE1 /* BleakBlocksAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CE9EFF3E242A37EA00A73BE1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1120;
+				LastUpgradeCheck = 1120;
+				ORGANIZATIONNAME = user;
+				TargetAttributes = {
+					CE9EFF45242A37EA00A73BE1 = {
+						CreatedOnToolsVersion = 11.2;
+					};
+					CE9EFF5B242A37EC00A73BE1 = {
+						CreatedOnToolsVersion = 11.2;
+						TestTargetID = CE9EFF45242A37EA00A73BE1;
+					};
+					CE9EFF66242A37EC00A73BE1 = {
+						CreatedOnToolsVersion = 11.2;
+						TestTargetID = CE9EFF45242A37EA00A73BE1;
+					};
+				};
+			};
+			buildConfigurationList = CE9EFF41242A37EA00A73BE1 /* Build configuration list for PBXProject "BleakBlocksApp" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CE9EFF3D242A37EA00A73BE1;
+			productRefGroup = CE9EFF47242A37EA00A73BE1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CE9EFF45242A37EA00A73BE1 /* BleakBlocksApp */,
+				CE9EFF5B242A37EC00A73BE1 /* BleakBlocksAppTests */,
+				CE9EFF66242A37EC00A73BE1 /* BleakBlocksAppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CE9EFF44242A37EA00A73BE1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE9EFF56242A37EC00A73BE1 /* LaunchScreen.storyboard in Resources */,
+				CE9EFF53242A37EC00A73BE1 /* Assets.xcassets in Resources */,
+				CE9EFF51242A37EB00A73BE1 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE9EFF5A242A37EC00A73BE1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE9EFF65242A37EC00A73BE1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CE9EFF42242A37EA00A73BE1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE9EFF4E242A37EA00A73BE1 /* ViewController.swift in Sources */,
+				CE9EFF4A242A37EA00A73BE1 /* AppDelegate.swift in Sources */,
+				CE9EFF4C242A37EA00A73BE1 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE9EFF58242A37EC00A73BE1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE9EFF61242A37EC00A73BE1 /* BleakBlocksAppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE9EFF63242A37EC00A73BE1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE9EFF6C242A37EC00A73BE1 /* BleakBlocksAppUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CE9EFF5E242A37EC00A73BE1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CE9EFF45242A37EA00A73BE1 /* BleakBlocksApp */;
+			targetProxy = CE9EFF5D242A37EC00A73BE1 /* PBXContainerItemProxy */;
+		};
+		CE9EFF69242A37EC00A73BE1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CE9EFF45242A37EA00A73BE1 /* BleakBlocksApp */;
+			targetProxy = CE9EFF68242A37EC00A73BE1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CE9EFF4F242A37EA00A73BE1 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CE9EFF50242A37EA00A73BE1 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CE9EFF54242A37EC00A73BE1 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CE9EFF55242A37EC00A73BE1 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CE9EFF6E242A37EC00A73BE1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CE9EFF6F242A37EC00A73BE1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CE9EFF71242A37EC00A73BE1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2KB84KZYV6;
+				INFOPLIST_FILE = BleakBlocksApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "user-team.BleakBlocksApp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CE9EFF72242A37EC00A73BE1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2KB84KZYV6;
+				INFOPLIST_FILE = BleakBlocksApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "user-team.BleakBlocksApp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		CE9EFF74242A37EC00A73BE1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2KB84KZYV6;
+				INFOPLIST_FILE = BleakBlocksAppTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "user-team.BleakBlocksAppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BleakBlocksApp.app/BleakBlocksApp";
+			};
+			name = Debug;
+		};
+		CE9EFF75242A37EC00A73BE1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2KB84KZYV6;
+				INFOPLIST_FILE = BleakBlocksAppTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "user-team.BleakBlocksAppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BleakBlocksApp.app/BleakBlocksApp";
+			};
+			name = Release;
+		};
+		CE9EFF77242A37EC00A73BE1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2KB84KZYV6;
+				INFOPLIST_FILE = BleakBlocksAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "user-team.BleakBlocksAppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = BleakBlocksApp;
+			};
+			name = Debug;
+		};
+		CE9EFF78242A37EC00A73BE1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2KB84KZYV6;
+				INFOPLIST_FILE = BleakBlocksAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "user-team.BleakBlocksAppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = BleakBlocksApp;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CE9EFF41242A37EA00A73BE1 /* Build configuration list for PBXProject "BleakBlocksApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE9EFF6E242A37EC00A73BE1 /* Debug */,
+				CE9EFF6F242A37EC00A73BE1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CE9EFF70242A37EC00A73BE1 /* Build configuration list for PBXNativeTarget "BleakBlocksApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE9EFF71242A37EC00A73BE1 /* Debug */,
+				CE9EFF72242A37EC00A73BE1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CE9EFF73242A37EC00A73BE1 /* Build configuration list for PBXNativeTarget "BleakBlocksAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE9EFF74242A37EC00A73BE1 /* Debug */,
+				CE9EFF75242A37EC00A73BE1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CE9EFF76242A37EC00A73BE1 /* Build configuration list for PBXNativeTarget "BleakBlocksAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE9EFF77242A37EC00A73BE1 /* Debug */,
+				CE9EFF78242A37EC00A73BE1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CE9EFF3E242A37EA00A73BE1 /* Project object */;
+}
